@@ -3,15 +3,17 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
-import Demo from './assets/Demo'
+import Demo from './components/Demo'
+import Header from './components/Header'
 
 function App() {
-  const [count, setCount] = useState(0)
 
-  return (
+  return (  
     <>
 
       <Demo />
+      <Header/>
+      <p>abcd abcd</p>
 
     </>
     
